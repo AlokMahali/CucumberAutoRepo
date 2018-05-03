@@ -18,6 +18,7 @@ public class MyFirstStepDef {
 		//System.setProperty("Webdriver.gecko.driver", "C:\\Cucumber SetUp\\resources-driver\\geckodriver64bit.exe");
 		driver=new FirefoxDriver();
 		driver.get("https://www.facebook.com/");
+		System.out.println("This is udatation code");
 		
 		}
 	@When("^User enters the first name$")
